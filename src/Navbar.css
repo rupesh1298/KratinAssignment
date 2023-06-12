@@ -1,0 +1,20 @@
+/* Navbar.css */
+
+.navbar-nav {
+    margin-left: 250px; /* Add left margin to create gaps between links */
+    font-size: 15px;
+  }
+  
+  .nav-link {
+    margin-right: 100px; /* Add right margin to create gaps between links */
+  }
+  .navbar-brand{
+    font-size: 30px;
+  }
+  .navbar{
+    position: fixed;
+    top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  }

@@ -1,0 +1,42 @@
+.analog-clock {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    background-color:lightblue;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hand {
+    position: absolute;
+    background-color: #000;
+    transform-origin: bottom center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hour-hand {
+    width: 6px;
+    height: 60px;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%) translateY(10%) rotate(0deg);
+  }
+  
+  .minute-hand {
+    width: 4px;
+    height: 80px;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%) translateY(10%) rotate(0deg);
+  }
+  
+  .second-hand {
+    width: 2px;
+    height: 90px;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%) translateY(10%) rotate(0deg);
+  }
+  
